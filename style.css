@@ -14,6 +14,7 @@ html {
 	background-size: cover;
 }
 
+/* On click of the image it will make the image scale down to 0.85 */
 
 .onClick:active {
     -webkit-transform: scale3d(0.85, 0.85, 0.85);
@@ -23,12 +24,16 @@ html {
 	transform: (0.85, 0.85, 0.85);
 }
 
+
+/* this allows the logo image to scale with the user */
 .logo{
 	max-width:100%;
 	height:auto;
 	
 }
 
+
+ /* this is the styles for the title */
 strong{
 	font-size: 2.1rem;
 	color: #fdfdfd;
@@ -40,7 +45,7 @@ strong{
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 }
-
+/* These are all the styles for the Bootstrap button */
 hr{
 	border-color: #F6A54B;
 	border-width: 3px;
@@ -73,6 +78,8 @@ hr{
 
 }
 
+
+/* This is the key frame for the logo to make it animate */
 @keyframes title{
 	0% {color: cornflowerblue;}
 	25% {color: rgb(136, 172, 240);}
